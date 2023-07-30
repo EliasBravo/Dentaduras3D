@@ -10,7 +10,7 @@ import subprocess
 from PIL import Image
 
 def convertir(img_path):
-    rf = Roboflow(api_key="4WeJP2kwrIXvvnXR2paP")
+    rf = Roboflow(api_key="")
     project = rf.workspace().project("toothdetectionv6")
     model = project.version(1).model
 
